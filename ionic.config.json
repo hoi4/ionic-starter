@@ -1,5 +1,7 @@
 {
   "name": "edge-to-edge",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
