@@ -35,3 +35,11 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+body {
+  // Prefer manually defined safe area variables on Android
+  --ion-safe-area-top: var(--android-safe-area-top, env(safe-area-inset-top));
+  --ion-safe-area-left: var(--android-safe-area-left, env(safe-area-inset-left));  
+  --ion-safe-area-right: var(--android-safe-area-right, env(safe-area-inset-right));  
+  --ion-safe-area-bottom: var(--android-safe-area-bottom, env(safe-area-inset-bottom));
+}
